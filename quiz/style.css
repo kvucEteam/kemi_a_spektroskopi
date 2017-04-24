@@ -1,0 +1,82 @@
+body {
+font-family:"verdana";
+font-size:12px;
+}
+h3 {
+font-family:"arial";
+font-size:18px;
+color:#42453B;
+}
+
+table, td, tr {
+border-spacing: 0px;
+border: 1px solid #dddddd;
+}
+.feedbackimage {
+	position: absolute;
+	height: 18px;
+	width: 19px;
+	padding: 1px 0 0 0;
+}
+form {
+	line-height: 20	px;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+.upper {
+	font-size: .7em;
+	vertical-align: 45%;
+}
+.lower {
+	font-size: .7em;
+	vertical-align: -25%;
+}
+#margin {
+	float: left;
+	margin-top: 4px;
+}
+.tjekSvar {
+	float: left;
+	margin: 10px 0 0 4px;
+}
+input {
+	margin-right: 5px;
+}
+.answer {
+	line-height: 1.4em;
+	margin: .3em 0;
+	display: inline-block;
+}
+.title td {
+	background-color: #56bfc5;
+	padding: 5px !important;
+}
+
+/* Radiobuttons */
+
+.radio td {
+	padding: 5px 5px 24px 5px;
+}
+
+/* Dropdown */
+.dropdown td {
+	padding: 5px;
+}
+.dropdown .feedbackimage {
+	position: absolute;
+	padding: 1px 0 0 3px;
+}
+.dropdown form {
+	line-height: 20	px;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+.dropdown #margin {
+	float: left;
+	margin-top: 4px;
+}
+.dropdown .tjekSvar {
+	float: left;
+	margin: 10px 0 0 4px;
+}
+

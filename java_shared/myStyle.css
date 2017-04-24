@@ -1,0 +1,17 @@
+body
+{
+font-family:"verdana";
+font-size:12px;
+}
+h3
+{
+font-family:"arial";
+font-size:18px;
+color:#42453B;
+}
+
+table, td, tr{ 
+
+border-spacing: 0px;
+border: 1px solid #dddddd;
+}
