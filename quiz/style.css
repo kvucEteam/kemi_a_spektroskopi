@@ -5,6 +5,10 @@ font-family:"open sans, sans-serif";
 
 }
 
+table{
+	width:100%;
+}
+
 
 table, td, tr {
 border-spacing: 0px;
@@ -39,11 +43,18 @@ form {
 }
 input {
 	margin-right: 5px;
+
+
+}
+
+.radio input[type=radio] {
+	margin-left: -17px;
 }
 .answer {
 	line-height: 1.4em;
 	margin: .3em 0;
 	display: inline-block;
+	margin-left: 20px;
 }
 .title td {
 	background-color: #48B3B7;

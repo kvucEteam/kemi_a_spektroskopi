@@ -5,6 +5,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" href="../../../library/css/styles.css" type="text/css" />
         <link rel="stylesheet" href="style.css" type="text/css" />
+            <link rel="stylesheet" type="text/css" href="java_shared/myStyle.css" />
+        <link rel="stylesheet" type="text/css" href="quiz/style.css" />
         <script src="../../../library/vendor_scripts.js"></script>
         <script src="../../../library/custom_scripts.js"></script>
 	</head>
@@ -13,11 +15,81 @@
 		<div class="container-fluid">
 			<h1>Quiz: Spektroskopi</h1>
 			<div class="instruction"></div>
-            <div class="col-xs-8">
+            <div class="col-xs-12">
 
-
-                <iframe src="quiz/spektroskopi.html" width="1000" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+        <form name="myform" class="radio">
+        <table>
+            <tr class="title">
+                <td><b>Spørgsmål</b></td>
+                <td><b>Svar</b></td>
+            </tr>
+            <tr>
+                <td>
+                    Ved hvilken bølgelængde indeholder fotonerne mest energi?
+                </td>
+                <td>
+                    <span class="answer">
+                        <input type="radio" name="svar1_1" value="true" />500 nm.
+                    </span>
+                    <br />
+                    <span class="answer">
+                        <input type="radio" name="svar1_1" />700 nm.
+                    </span>
+                    <br />
+                    <span class="answer">
+                        <input type="radio" name="svar1_1" />900 nm.
+                    </span>
+                    <br />
+                    <dfn class="feedbackimage"></dfn>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hvornår absorberer molekyler/atomer stråling?
+                </td>
+                <td>
+                    <span class="answer">
+                        <input type="radio" name="svar2_1" value="true" />Atomer/molekyler absorberer <b>stråler</b>, når energien af strålingen indeholder energi der <b>passer</b> med energiniveauet fra en energitilstand til en anden.
+                    </span>
+                    <br />
+                    <span class="answer">
+                        <input type="radio" name="svar2_1" />Atomer/molekyler absorberer <b>atomer</b>, når energien af strålingen indeholder energi der <b>passer</b> med energiniveauet fra en energitilstand til en anden.
+                    </span>
+                    <br />
+                    <span class="answer">
+                        <input type="radio" name="svar2_1" />Atomer/molekyler absorberer <b>stråler</b>, når energien af strålingen indeholder energi der <b>overstiger</b> energiniveauet fra en energitilstand til en anden.
+                    </span>
+                    <br />
+                    <dfn class="feedbackimage"></dfn>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hvilket postulat er forkert?
+                </td>
+                <td>
+                    <span class="answer">
+                        <input type="radio" name="svar3_1" />Mikrobølger kan få atomer til at rotere.
+                    </span>
+                    <br />
+                    <span class="answer">
+                        <input type="radio" name="svar3_1" />Infrarødebølger kan få atomer til at vibrere.
+                    </span>
+                    <br />
+                    <span class="answer">
+                        <input type="radio" name="svar3_1" value="true" />Radiobølger kan ændre atomers spintilstand.
+                    </span>
+                    <br />
+                    <dfn class="feedbackimage"></dfn>
+                </td>
+            </tr>
+        </table>
+        </form>
+        <div id="margin" class="float">
+        <div id="Tjek" class="btn btn-primary" alt ="tjek_svar" value="Tjek svar" onClick="check_svar()">Tjek svar</div>    
+        </div>
+        
+        <script src="spektroskopi.js"></script>
 
 			<script>
             $('.instruction').append(instruction("​Besvar quizzen og tjek dine svar ved at trykke på knappen nederst på siden"));

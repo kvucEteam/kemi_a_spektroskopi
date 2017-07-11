@@ -2,8 +2,8 @@
  * @author ato
  */
 
-var korrekt = "<img src='../java_shared/korrekt.gif'/>";
-var forkert = "<img src='../java_shared/forkert.gif'/>";
+var korrekt = "<img src='java_shared/korrekt.gif'/>";
+var forkert = "<img src='java_shared/forkert.gif'/>";
 
 function check_svar() {
 		
@@ -27,13 +27,15 @@ function check_svar() {
 	var radioButtons9 = document.getElementsByName("svar9_1");
 	
 	var radioButtons10 = document.getElementsByName("svar10_1");
+	
+	var radioButtons11 = document.getElementsByName("svar11_1");
 	//alert("Break");
 	//var radioButtons = document.getElementsByName("radio1");
 	
 
 	//Antallet af felter i Array'et skal afspejle antallet af spørgsmål:
 
-	var radioButtons = new Array(radioButtons1, radioButtons2, radioButtons3, radioButtons4, radioButtons5, radioButtons6, radioButtons7, radioButtons8, radioButtons9, radioButtons10);
+	var radioButtons = new Array(radioButtons1, radioButtons2, radioButtons3, radioButtons4, radioButtons5, radioButtons6, radioButtons7, radioButtons8, radioButtons9, radioButtons10, radioButtons11);
 	
 	/// End edit 
 
@@ -64,9 +66,11 @@ function check_svar() {
 	}
 	//feedback til brugereren i  "" :
 	if(score > (radioButtons.length - 1)) {
-		feedback.innerHTML = "Flot! Du har besvaret samtlige spørgsmål korrekt!"
+		    microhint($("#Tjek"), "Flot! Du har besvaret samtlige spørgsmål korrekt!");
+		//feedback.innerHTML = "Flot! Du har besvaret samtlige spørgsmål korrekt!"
 	} else {
-		feedback.innerHTML = "Du mangler at besvare et eller flere spørgsmål korrekt."
+		//feedback.innerHTML = "Du mangler at besvare et eller flere spørgsmål korrekt."
+		microhint($("#Tjek"), "Du mangler at besvare et eller flere spørgsmål korrekt.");
 
 	}
 	

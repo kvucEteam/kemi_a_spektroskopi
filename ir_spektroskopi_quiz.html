@@ -1,31 +1,257 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-	<head>
-		<title>Quiz om IR-spektroskopi</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <link rel="stylesheet" href="../../../library/css/styles.css" type="text/css" />
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <script src="../../../library/vendor_scripts.js"></script>
-        <script src="../../../library/custom_scripts.js"></script>
-	</head>
 
-	<body>
-		<div class="container-fluid">
-			<h1>Quiz: IR-spektroskopi</h1>
-			<div class="instruction"></div>
-            <div class="col-xs-8">
+<head>
+    <title>Quiz om IR-spektroskopi</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../../../library/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="java_shared/myStyle.css" />
+    <link rel="stylesheet" type="text/css" href="quiz/style.css" />
+    <script src="../../../library/vendor_scripts.js"></script>
+    <script src="../../../library/custom_scripts.js"></script>
+</head>
 
-
-                <iframe src="quiz/IR.html" width="1000" height="1600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-
-			<script>
+<body>
+    <div class="container-fluid">
+        <h1>Quiz: IR-spektroskopi</h1>
+        <div class="instruction"></div>
+        <div class="col-xs-12">
+            <form name="myform" class="radio">
+                <table>
+                    <tr class="title">
+                        <td><b>Nr.</b></td>
+                        <td><b>Spørgsmål</b></td>
+                        <td><b>Svar</b></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            Hvilke molekylære ændringer bygger IR-spektroskopi på?
+                        </td>
+                        <td>
+                            <span class="answer">
+                        <input type="radio" name="svar1_1" />Energiforskelle mellem atomkerner med forskellige spin.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar1_1" value="true" />Energiforskelle mellem molekylers vibrationer.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar1_1" />Energiforskelle mellem elektronernes energiniveauer.
+                    </span>
+                            <br />
+                            <dfn class="feedbackimage"></dfn>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            Hvilket bølgetal indeholder mest energi?
+                        </td>
+                        <td>
+                            <span class="answer">
+                        <input type="radio" name="svar2_1" />1000 cm<span class="upper">-1</span>.
+                            </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar2_1" />3000 cm<span class="upper">-1</span>.
+                            </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar2_1" value="true" />3500 cm<span class="upper">-1</span>.
+                            </span>
+                            <br />
+                            <dfn class="feedbackimage"></dfn>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            Hvad vibrerer i forhold til hinanden i IR-spektroskopi?
+                        </td>
+                        <td>
+                            <span class="answer">
+                        <input type="radio" name="svar3_1" value="true" />Atomer i elektronparbinding(er).
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar3_1" />Ioner.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar3_1" />Molekyler.
+                    </span>
+                            <br />
+                            <dfn class="feedbackimage"></dfn>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            Hvad absorberer IR-lys ved højest bølgetal?
+                        </td>
+                        <td>
+                            <span class="answer">
+                        <input type="radio" name="svar4_1" value="true" />Polære bindinger.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar4_1" />Ikke-polære bindinger.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar4_1" />Di-atomige polære bindinger.
+                    </span>
+                            <br />
+                            <dfn class="feedbackimage"></dfn>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            Hvilket udsagn er sandt?
+                        </td>
+                        <td>
+                            <span class="answer">
+                        <input type="radio" name="svar5_1" />Upolære bindinger absorberer energi ved højere bølgetal end ikke-polære bindinger.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar5_1" value="true" />Polære bindinger absorberer energi ved højere bølgetal end ikke-polære bindinger.
+                    </span>
+                            <br />
+                            <dfn class="feedbackimage"></dfn>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            Hvorfor er det relevant at lave et tabel over bindingstyper mellem C, N og O?
+                        </td>
+                        <td>
+                            <span class="answer">
+                        <input type="radio" name="svar6_1" value="true" />Da molekylerne næsten har samme masse, hvorfor man også kan se sammenhængen mellem bindingsstyrke og bølgetal.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar6_1" />Da molekylerne næsten har samme masse, hvorfor man også kan se sammenhængen mellem bølgelængde og bølgetal.
+                    </span>
+                            <br />
+                            <dfn class="feedbackimage"></dfn>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            Hvorfor er bindingerne til H i skemaet ved et højt bølgetal?
+                        </td>
+                        <td>
+                            <span class="answer">
+                        <input type="radio" name="svar7_1" />Fordi det kræver meget energi at strække en elektronbinding, hvis molekylerne har samme molekylmasse.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar7_1" value="true" />Fordi det kræver meget energi at strække en elektronbinding, hvis molekylerne har stor forskel i molekylmasse.
+                    </span>
+                            <br />
+                            <dfn class="feedbackimage"></dfn>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>
+                            Hvorfor giver signaler for elektronparbindinger med hydrogenbindinger et fladere signal?
+                        </td>
+                        <td>
+                            <span class="answer">
+                        <input type="radio" name="svar8_1" />Fordi signalet for elektronparbindingerne påvirker hydrogenbinidingerne og omvendt.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar8_1" value="true" />Fordi signalet for elektronparbindingerne påvirkes af hydrogenbinidingerne.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar8_1" />Fordi signalet for elektronparbindingerne påvirker hydrogenbinidingerne.
+                    </span>
+                            <br />
+                            <dfn class="feedbackimage"></dfn>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>
+                            Hvorfor giver carboxylsyrer et bredere signal end alkoholer?
+                        </td>
+                        <td>
+                            <span class="answer">
+                        <input type="radio" name="svar9_1" />Fordi de har færre mulige hydrogenbindinger, hvorfor deres signal varierer mere.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar9_1" />Fordi de ingen hydrogenbindinger har, hvorfor deres signal varierer mere.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar9_1" value="true" />Fordi de har flere mulige hydrogenbindinger, hvorfor deres signal varierer mere.
+                    </span>
+                            <br />
+                            <dfn class="feedbackimage"></dfn>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>
+                            Hvorfor viser en sekundær amin en top, mens en primær amin viser to?
+                        </td>
+                        <td>
+                            <span class="answer">
+                        <input type="radio" name="svar10_1" />Fordi den sekundære aminogruppe har to ensstillede NH-bindinger (sekundære aminogruppe har ingen ensstillede NH-bindinger) og derfor har mulighed for både symmetrisk og asymmetrisk stræk.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar10_1" />Fordi den tertiære aminogruppe har to ensstillede NH-bindinger (sekundære aminogruppe har ingen ensstillede NH-bindinger) og derfor har mulighed for både symmetrisk og asymmetrisk stræk.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar10_1" value="true" />Fordi den primære aminogruppe har to ensstillede NH-bindinger (sekundære aminogruppe har ingen ensstillede NH-bindinger) og derfor har mulighed for både symmetrisk og asymmetrisk stræk.
+                    </span>
+                            <br />
+                            <dfn class="feedbackimage"></dfn>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>
+                            Hvad bruges IR-spektroskopi til?
+                        </td>
+                        <td>
+                            <span class="answer">
+                        <input type="radio" name="svar11_1" />At bestemme molekylers struktur.
+                    </span>
+                            <br />
+                            <span class="answer">
+                        <input type="radio" name="svar11_1" value="true" />At bestemme molekylers funktionelle grupper.
+                    </span>
+                            <br />
+                            <dfn class="feedbackimage"></dfn>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div id="margin" class="float">
+                <img src="../java_shared/tjek-svar.png" alt="tjek_svar" value="Tjek svar" onClick="check_svar()" />
+            </div>
+            <div id="respons" class="tjekSvar"></div>
+            <script src="IR.js"></script>
+            <script>
             $('.instruction').append(instruction("​Besvar quizzen og tjek dine svar ved at trykke på knappen nederst på siden"));
             one_line_footer();
             </script>
-           
-
-    		</div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
