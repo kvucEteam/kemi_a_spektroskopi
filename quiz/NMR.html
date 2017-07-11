@@ -7,6 +7,7 @@
 		<meta name="author" content="KVUC 2012" />
 		<link rel="stylesheet" type="text/css" href="../java_shared/myStyle.css" />
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" href="../../library/css/styles.css" type="text/css">
 		<!-- Date: 2012-01-23 -->
 	
 <!--[if gte mso 9]><xml>
@@ -27,7 +28,7 @@
 </head>
 	<body>
 		<form name="myform" class="radio">
-		<table>
+		<table style="padding-left: 20px">
 			<tr class="title">
 				<td>Nr.</td>
 				<td><b>Spørgsmål</b></td>
@@ -38,7 +39,7 @@
 				<td>
 					Hvorfor kan <span class="upper">1</span>H-kerner absorbere NMR-stråling i et magnetisk felt?
 				</td>
-				<td>
+				<td style="padding-left: 30px">
 					<span class="answer">
 						<input type="radio" name="svar1_1" />Fordi de kan ændre deres kernespin fra spin op til spin op-op? Dette skyldes at antallet af protoner og neutroner samlet er ulige.
 					</span>
@@ -59,7 +60,7 @@
 				<td>
 					Hvad sker der når <span class="upper">1</span>H-kerner absorberer NMR-stråling?
 				</td>
-				<td>
+				<td style="padding-left: 30px">
 					<span class="answer">
 						<input type="radio" name="svar2_1" value="true" /><span class="upper">1</span>H-kernen skifter energiniveau fra den laveste energitilstand til den næstlaveste energitilstand. Derefter sker den modsatte handling, hvorfor energien frigøres til omgivelserne (emission af energi).
 					</span>
@@ -80,7 +81,7 @@
 				<td>
 					Hvorfor absorberer alle <span class="upper">1</span>H-kerner ikke energi ved samme NMR-stråling?
 				</td>
-				<td>
+				<td style="padding-left: 30px">
 					<span class="answer">
 						<input type="radio" name="svar3_1" />Fordi <span class="upper">1</span>H-kernerne afskærmes af elektronskyerne fra andre molekyler.
 					</span>
@@ -101,7 +102,7 @@
 				<td>
 					Definér det kemiske skift. 
 				</td>
-				<td>
+				<td style="padding-left: 30px">
 					<span class="answer">
 						<input type="radio" name="svar4_1" value="true" />Den relative forskydning i forhold til referencemolekylets resonansfrekvens.
 					</span>
@@ -118,7 +119,7 @@
 				<td>
 					Hvilket kemisk skift er mest afskærmet?
 				</td>
-				<td>
+				<td style="padding-left: 30px">
 					<span class="answer">
 						<input type="radio" name="svar5_1" />4,0 ppm.
 					</span>
@@ -139,7 +140,7 @@
 				<td>
 					Hvor mange signaler er der for molekyler?
 				</td>
-				<td>
+				<td style="padding-left: 30px">
 					<span class="answer">
 						<input type="radio" name="svar6_1" />Antal signaler er samme som antal H-kerner.
 					</span>
@@ -160,7 +161,7 @@
 				<td>
 					Hvad angiver intensiteten af signalerne?
 				</td>
-				<td>
+				<td style="padding-left: 30px">
 					<span class="answer">
 						<input type="radio" name="svar7_1" />Forholdet mellem H-kerner og C-kerner.
 					</span>
@@ -181,7 +182,7 @@
 				<td>
 					Hvad angiver spin-spin-koblingen?
 				</td>
-				<td>
+				<td style="padding-left: 30px">
 					<span class="answer">
 						<input type="radio" name="svar8_1" />At et signal opsplittes uafhængigt af antallet af nabo-H-kerner.
 					</span>
@@ -202,7 +203,7 @@
 				<td>
 					Hvilket postulat er rigtigt?
 				</td>
-				<td>
+				<td style="padding-left: 30px">
 					<span class="answer">
 						<input type="radio" name="svar9_1" value="true" />En singlet har ingen nabo-H-kerner.
 					</span>
@@ -223,7 +224,7 @@
 				<td>
 					Hvorfor følger aromater ikke n+1-reglen?
 				</td>
-				<td>
+				<td style="padding-left: 30px">
 					<span class="answer">
 						<input type="radio" name="svar10_1" />Fordi aromater har en alpha-elektronsky.
 					</span>
@@ -242,10 +243,11 @@
 		</table>
 		</form>
 		<div id="margin" class="float">
-			<img src="../java_shared/tjek-svar.png" alt ="tjek_svar" value="Tjek svar" onClick="check_svar()" />
+			<div id="Tjek" class="btn btn-primary" alt ="tjek_svar" value="Tjek svar" onClick="check_svar()">Tjek</div>
 		</div>
 		<div id="respons" class="tjekSvar">Tryk her for at tjekke dit svar.</div>
 		<script src="NMR.js"></script>
+		
 		<br /><br />
 	</body>
 </html>
